@@ -1,4 +1,4 @@
-$(".nav a").on("click", function() {
+$("a").on("click", function() {
   var activeTab = $(this).attr("href");
   $('#card > div').removeClass('flipped after before');
   $(activeTab).addClass('flipped');
