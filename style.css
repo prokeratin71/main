@@ -13,9 +13,35 @@ p{
   border: black 2px solid;
 }
 
+a.bot8 {
+  background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+        border-radius: 4px;
+    color: #555555;
+    display:block;
+        width:80px;
+        margin: 20px auto;
+    font-size: 14px;
+        text-align:center;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+        text-decoration:none;
+}
+a.bot8:hover, a.bot8:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+   outline: 0 none;
+}
+
 .img_social{
   width: 35px;
   height: 35px;
+  padding: 10px;
 }
 
 body{
@@ -24,11 +50,12 @@ body{
 }
 
 .container {
-  width: 100%;
-  height: 100%;
+  width:100%;
+  height:100%;
   max-width: 400px;
   max-height: 550px;
   position: relative;
+  padding: 2%;
   margin: 0 auto 40px;
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
@@ -66,16 +93,17 @@ body{
   backface-visibility: hidden;
   background: rgb(255, 255, 255);
   opacity: 0;
+  /* радиус */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-
-
-  
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  /* тень */
+  -webkit-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2); 
+  -moz-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2); 
+  box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2);
 }
 #card .flipper:nth-child(2n) {
-  
+  background: red;
 }
 #card .flipper.flipped {
   -webkit-transform: rotateY(0deg);
