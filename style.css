@@ -103,7 +103,7 @@ body{
   box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2);
 }
 #card .flipper:nth-child(2n) {
-  background: red;
+  
 }
 #card .flipper.flipped {
   -webkit-transform: rotateY(0deg);
@@ -124,4 +124,7 @@ body{
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
+}
+.map{
+  text-align: center;
 }
