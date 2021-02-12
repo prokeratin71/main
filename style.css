@@ -46,7 +46,9 @@ a.bot8:hover, a.bot8:focus {
 
 body{
   height: 98vh;
-  background: linear-gradient(to top left, powderblue, pink);
+  background: -webkit-linear-gradient(135deg, rgb(246, 183, 230) 10%, rgb(142, 218, 221) 100%);
+  background: -moz-linear-gradient(135deg, rgb(246, 183, 230) 10%, rgb(142, 218, 221) 100%);
+  background: linear-gradient(135deg, rgb(246, 183, 230) 10%, rgb(142, 218, 221) 100%);
 }
 
 .container {
@@ -98,9 +100,9 @@ body{
   -moz-border-radius: 10px;
   border-radius: 10px;
   /* тень */
-  -webkit-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2); 
-  -moz-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2); 
-  box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.2);
+  -webkit-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.5); 
+  -moz-box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.5); 
+  box-shadow: 19px 27px 77px 26px rgba(105, 105, 105, 0.5);
 }
 #card .flipper:nth-child(2n) {
   
