@@ -36,6 +36,10 @@ a.btn-grad {
    text-decoration: none;
  }
 
+ .row a {
+  display: inline-block;
+}
+
 
 
 .img_social{
